@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" width="100%" height="100%">
+  <defs>
+    <!-- Background Circle Clip -->
+    <clipPath id="circleClip">
+      <circle cx="200" cy="160" r="148" />
+    </clipPath>
+  </defs>
+
+  <!-- Circular Backdrop (Soft Powder Cyan) -->
+  <circle cx="200" cy="160" r="148" fill="#d7ecf2" />
+
+  <g id="illustration">
+    <!-- BACKGROUND SKYSCRAPERS -->
+    <!-- Center Tall Skyscraper -->
+    <!-- Left Face -->
+    <polygon points="175,108 175,200 195,200 195,115" fill="#58a4b8" />
+    <!-- Front Face -->
+    <polygon points="195,115 195,200 238,200 238,78 200,60" fill="#2d3e42" />
+    <!-- Left Angled Face of Center Skyscraper -->
+    <polygon points="175,108 200,60 200,195 175,195" fill="#36494e" />
+    <!-- Center Tower Top Cap / Angled Roof Trim -->
+    <polygon points="175,108 198,58 202,58 238,78 238,82 200,63 175,111" fill="#ecf7f9" />
+    <!-- Center Tower Windows (Vertical White/Teal Strips) -->
+    <rect x="180" y="115" width="4" height="60" fill="#ecf7f9" opacity="0.9" />
+    <rect x="187" y="105" width="4" height="70" fill="#ecf7f9" opacity="0.9" />
+    <rect x="204" y="80" width="6" height="95" fill="#ecf7f9" />
+    <rect x="214" y="86" width="6" height="90" fill="#ecf7f9" />
+    <rect x="224" y="92" width="6" height="85" fill="#ecf7f9" />
+
+    <!-- Left Angled Skyscraper -->
+    <!-- Front face -->
+    <polygon points="115,178 115,225 173,225 173,165 140,165" fill="#2d3e42" />
+    <!-- Angled Top Edge -->
+    <polygon points="115,178 140,165 173,165 173,168 141,168 115,181" fill="#ecf7f9" />
+    <!-- Left Skyscraper 3x4 Glowing Teal Windows -->
+    <!-- Col 1 -->
+    <rect x="122" y="185" width="8" height="6" fill="#36c2bb" />
+    <rect x="122" y="195" width="8" height="6" fill="#36c2bb" />
+    <rect x="122" y="205" width="8" height="6" fill="#36c2bb" />
+    <!-- Col 2 -->
+    <rect x="134" y="185" width="8" height="6" fill="#36c2bb" />
+    <rect x="134" y="195" width="8" height="6" fill="#36c2bb" />
+    <rect x="134" y="205" width="8" height="6" fill="#36c2bb" />
+    <!-- Col 3 -->
+    <rect x="146" y="185" width="8" height="6" fill="#36c2bb" />
+    <rect x="146" y="195" width="8" height="6" fill="#36c2bb" />
+    <rect x="146" y="205" width="8" height="6" fill="#36c2bb" />
+
+    <!-- Right Modern Skyscraper -->
+    <!-- Front face -->
+    <polygon points="204,138 204,220 286,220 286,150 204,125" fill="#263437" />
+    <!-- Angled Roof Top White Line -->
+    <polygon points="202,125 288,149 288,154 202,130" fill="#ecf7f9" />
+    <!-- Right Skyscraper Horizontal Window Bands -->
+    <!-- Row 1 -->
+    <rect x="210" y="145" width="68" height="5" fill="#36c2bb" />
+    <!-- Row 2 -->
+    <rect x="210" y="156" width="68" height="5" fill="#36c2bb" />
+    <!-- Row 3 -->
+    <rect x="210" y="167" width="68" height="5" fill="#36c2bb" />
+    <!-- Row 4 -->
+    <rect x="210" y="178" width="68" height="5" fill="#36c2bb" />
+    <!-- Row 5 -->
+    <rect x="210" y="189" width="68" height="5" fill="#36c2bb" />
+
+    <!-- FOREGROUND RESIDENTIAL CRAFTSMAN HOUSE -->
+    <!-- House Silhouette / Walls Base (Dark Slate) -->
+    <path d="M 64,242 L 105,200 L 142,238 L 142,205 L 205,160 L 270,205 L 270,225 L 305,225 L 340,250 L 340,290 L 64,290 Z" fill="#28393c" />
+
+    <!-- LEFT GABLE (Garage / Left Wing) -->
+    <!-- Roof Fascia White -->
+    <polygon points="46,242 105,188 164,242 156,247 105,199 54,247" fill="#ecf7f9" />
+    <polygon points="50,244 105,193 160,244 156,247 105,199 54,247" fill="#6ecad0" />
+    <!-- Left Gable Inner Wall -->
+    <polygon points="58,243 105,198 152,243 152,290 58,290" fill="#2d3f42" />
+    <!-- Garage Outer Door Frame -->
+    <rect x="72" y="248" width="56" height="38" fill="#1d2a2c" rx="1" />
+    <!-- Garage Panels (Cyan / Teal with dark grid) -->
+    <rect x="75" y="252" width="24" height="14" fill="#36c2bb" />
+    <rect x="101" y="252" width="24" height="14" fill="#36c2bb" />
+    <rect x="75" y="268" width="24" height="15" fill="#36c2bb" />
+    <rect x="101" y="268" width="24" height="15" fill="#36c2bb" />
+    <!-- Left small window -->
+    <circle cx="105" cy="225" r="9" fill="#ecf7f9" />
+    <circle cx="105" cy="225" r="7" fill="#28393c" />
+    <path d="M 105,218 L 105,232 M 98,225 L 112,225" stroke="#36c2bb" stroke-width="2" />
+
+    <!-- CENTER PROMINENT GABLE -->
+    <!-- Main Center Roof Peak White Trim -->
+    <polygon points="144,208 206,155 268,208 261,214 206,165 151,214" fill="#ecf7f9" />
+    <polygon points="148,211 206,160 264,211 261,214 206,165 151,214" fill="#6ecad0" />
+    <!-- Center Gable Wall -->
+    <polygon points="152,210 206,164 260,210 260,290 152,290" fill="#28393c" />
+
+    <!-- Attic Porthole Round Window -->
+    <circle cx="206" cy="198" r="10" fill="#ecf7f9" />
+    <circle cx="206" cy="198" r="8" fill="#212d2f" />
+    <circle cx="206" cy="198" r="6.5" fill="#36c2bb" />
+    <path d="M 206,190 L 206,206 M 198,198 L 214,198" stroke="#ecf7f9" stroke-width="1.6" />
+
+    <!-- Second Floor Window Bay (4-paned) -->
+    <rect x="178" y="213" width="56" height="20" fill="#ecf7f9" rx="1" />
+    <rect x="180" y="215" width="52" height="16" fill="#1e2a2c" />
+    <!-- 4 Teal Window Panes -->
+    <rect x="182" y="217" width="10.5" height="12" fill="#36c2bb" />
+    <rect x="195" y="217" width="10.5" height="12" fill="#36c2bb" />
+    <rect x="208" y="217" width="10.5" height="12" fill="#36c2bb" />
+    <rect x="221" y="217" width="10.5" height="12" fill="#36c2bb" />
+
+    <!-- White Architectural Porch Columns -->
+    <rect x="160" y="235" width="5.5" height="55" fill="#ecf7f9" />
+    <rect x="246" y="235" width="5.5" height="55" fill="#ecf7f9" />
+    <rect x="160" y="235" width="91" height="5.5" fill="#ecf7f9" />
+
+    <!-- Center Ground Floor Windows (Bank of 4 Craftman Windows) -->
+    <rect x="174" y="252" width="64" height="26" fill="#ecf7f9" rx="1" />
+    <rect x="176" y="254" width="60" height="22" fill="#1e2a2c" />
+    <!-- 4 Windows -->
+    <rect x="178" y="256" width="12" height="18" fill="#36c2bb" />
+    <rect x="193" y="256" width="12" height="18" fill="#36c2bb" />
+    <rect x="208" y="256" width="12" height="18" fill="#36c2bb" />
+    <rect x="223" y="256" width="12" height="18" fill="#36c2bb" />
+
+    <!-- Windows Mullions -->
+    <line x1="184" y1="256" x2="184" y2="274" stroke="#1e2a2c" stroke-width="1.2" />
+    <line x1="178" y1="262" x2="190" y2="262" stroke="#1e2a2c" stroke-width="1.2" />
+    <line x1="199" y1="256" x2="199" y2="274" stroke="#1e2a2c" stroke-width="1.2" />
+    <line x1="193" y1="262" x2="205" y2="262" stroke="#1e2a2c" stroke-width="1.2" />
+    <line x1="214" y1="256" x2="214" y2="274" stroke="#1e2a2c" stroke-width="1.2" />
+    <line x1="208" y1="262" x2="220" y2="262" stroke="#1e2a2c" stroke-width="1.2" />
+    <line x1="229" y1="256" x2="229" y2="274" stroke="#1e2a2c" stroke-width="1.2" />
+    <line x1="223" y1="262" x2="235" y2="262" stroke="#1e2a2c" stroke-width="1.2" />
+
+    <!-- Intermediate Window (Between Garage and Center) -->
+    <rect x="142" y="253" width="14" height="18" fill="#1e2a2c" />
+    <rect x="144" y="255" width="10" height="14" fill="#36c2bb" />
+    <line x1="149" y1="255" x2="149" y2="269" stroke="#1e2a2c" stroke-width="1" />
+    <line x1="144" y1="262" x2="154" y2="262" stroke="#1e2a2c" stroke-width="1" />
+
+    <!-- RIGHT GABLE (Right Wing) -->
+    <!-- Right Roof Fascia White Trim -->
+    <polygon points="252,228 306,188 360,228 353,234 306,198 259,234" fill="#ecf7f9" />
+    <polygon points="255,230 306,192 357,230 353,234 306,198 259,234" fill="#6ecad0" />
+    <!-- Right Gable Wall -->
+    <polygon points="260,230 306,196 350,230 350,290 260,290" fill="#2d3f42" />
+
+    <!-- Right Wing Windows -->
+    <!-- Window 1 -->
+    <rect x="268" y="253" width="16" height="19" fill="#1e2a2c" />
+    <rect x="270" y="255" width="12" height="15" fill="#36c2bb" />
+    <line x1="276" y1="255" x2="276" y2="270" stroke="#1e2a2c" stroke-width="1" />
+    <line x1="270" y1="262" x2="282" y2="262" stroke="#1e2a2c" stroke-width="1" />
+
+    <!-- Window 2 (Far Right Window / Door) -->
+    <rect x="300" y="248" width="16" height="26" fill="#1e2a2c" />
+    <rect x="302" y="250" width="12" height="22" fill="#36c2bb" />
+    <line x1="308" y1="250" x2="308" y2="272" stroke="#1e2a2c" stroke-width="1" />
+    <line x1="302" y1="258" x2="314" y2="258" stroke="#1e2a2c" stroke-width="1" />
+
+    <!-- GROUND BASELINE (Charcoal Ground Bar) -->
+    <rect x="42" y="290" width="316" height="11" fill="#233133" rx="2" />
+  </g>
+</svg>

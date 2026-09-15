@@ -1,0 +1,6 @@
+{
+  "name": "کمیسیون املاک تهران",
+  "description": "سامانه رسمی محاسبه تعرفه قانونی کمیسیون رهن، اجاره و خرید و فروش املاک تهران",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "کمیسیون املاک تهران",
+  "short_name": "کمیسیون املاک تهران",
+  "description": "سامانه رسمی محاسبه تعرفه قانونی کمیسیون رهن، اجاره و خرید و فروش املاک تهران",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0a0f1d",
+  "theme_color": "#0a0f1d",
+  "icons": [
+    {
+      "src": "/assets/app-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/app-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
